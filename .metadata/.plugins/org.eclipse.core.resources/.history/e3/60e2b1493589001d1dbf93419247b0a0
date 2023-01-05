@@ -1,0 +1,69 @@
+package P1;
+
+public class Vehicledriver {
+
+	
+	private String VehicleNumber;
+	private float Entrytime;
+	private Integer ContactNumber;
+	private String VehicleType;
+	public Object setVehicleNumber;
+	public Object setEntrytime;
+	public Object setContactNumber;
+	public Object setVehicleType;
+	public String getVehicleNumber() {
+		return VehicleNumber;
+	}
+	public void setVehicleNumber(String vehicleNumber) {
+		VehicleNumber = vehicleNumber;
+	}
+	public float getEntrytime() {
+		return Entrytime;
+	}
+	public void setEntrytime(float entrytime) {
+		Entrytime = entrytime;
+	}
+	public Integer getContactNumber() {
+		return ContactNumber;
+	}
+	public void setContactNumber(Integer contactNumber) {
+		ContactNumber = contactNumber;
+	}
+	public String getVehicleType() {
+		return VehicleType;
+	}
+	public void setVehicleType(String vehicleType) {
+		VehicleType = vehicleType;
+	}
+	public static void add(Vehicledriver v) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String toString() {
+		return "Vehicledriver [VehicleNumber=" + VehicleNumber + ", Entrytime=" + Entrytime + ", ContactNumber="
+				+ ContactNumber + ", VehicleType=" + VehicleType + ", setVehicleNumber=" + setVehicleNumber
+				+ ", setEntrytime=" + setEntrytime + ", setContactNumber=" + setContactNumber + ", setVehicleType="
+				+ setVehicleType + ", getVehicleNumber()=" + getVehicleNumber() + ", getEntrytime()=" + getEntrytime()
+				+ ", getContactNumber()=" + getContactNumber() + ", getVehicleType()=" + getVehicleType()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
